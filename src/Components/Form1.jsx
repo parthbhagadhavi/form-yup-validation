@@ -10,7 +10,6 @@ const Form1 = () => {
         },
         onSubmit:(data)=>{
             console.log(data);
-            
         },
         validationSchema:yup.object({
           name: yup
